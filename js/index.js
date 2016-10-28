@@ -11,7 +11,7 @@
         var $data = $bannerInner.find('li');
         var step = -1;
         var timer = null;
-        var interval = 3500;
+        var interval = 4000;
         $lis = $focusList.find('li');
         timer = window.setInterval(autoMove, interval);
         function autoMove() {
